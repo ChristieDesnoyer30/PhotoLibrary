@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Home Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href ="index.css" rel="stylesheet"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
     <script src ="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/litera/bootstrap.min.css"></script>
 
 </head>
@@ -13,9 +14,11 @@
 <h1>Welcome to Christie's Meme Photo Library</h1>
 
 <div th:each="photo : ${photos}" class="container">
+    <div>
     <h1 th:text = "${photo.photoName}">Photo name</h1>
     <img th:src="'/photos/' + ${photo.imagePath}" >
     <p th:text="'Date uploaded ' + ${photo.dateUploaded}">Date Uploaded</p>
+    </div>
 </div>
 
 
