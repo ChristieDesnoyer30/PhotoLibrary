@@ -11,21 +11,30 @@ public class Photo {
 //3.) One or more tags
 
     private String photoName;
+    private String imagePath;
     private LocalDate dateUploaded;
-    private ArrayList<String> photoTags;
+    private String photoTags;
 
-    public Photo(String photoName, LocalDate dateUploaded, ArrayList<String> photoTags) {
+    public Photo(String photoName,String imagePath,  LocalDate dateUploaded, String photoTags) {
         this.photoName = photoName;
+        this.imagePath = imagePath;
         this.dateUploaded = dateUploaded;
-        this.photoTags = new ArrayList<>();
+        this.photoTags = photoTags;
     }
 
-
-
-    public String getImagePathName(){
-
-        return  getPhotoName().toLowerCase().replace(" ", "");
+    public String getImagePath() {
+        return imagePath;
     }
+
+    public void setImagePath(String imagePath) {
+        this.imagePath = imagePath;
+    }
+
+    //
+//    public String getImagePathName(){
+//
+//        return  getPhotoName().toLowerCase().replace(" ", "");
+//    }
 
     public String getPhotoName() {
         return photoName;
@@ -43,11 +52,11 @@ public class Photo {
         this.dateUploaded = dateUploaded;
     }
 
-    public ArrayList<String> getPhotoTags() {
+    public String getPhotoTags() {
         return photoTags;
     }
 
-    public void setPhotoTags(ArrayList<String> photoTags) {
+    public void setPhotoTags(String photoTags) {
         this.photoTags = photoTags;
     }
 }

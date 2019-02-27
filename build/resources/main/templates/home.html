@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
@@ -9,12 +9,13 @@
 
 </head>
 <body>
+
 <h1>Welcome to Christie's Meme Photo Library</h1>
 
-
-<div class="container">
-    <h1>Photo name</h1>
-    <p>This is where the photo will be.</p>
+<div th:each="photo : ${photos}" class="container">
+    <h1 th:text = "${photo.photoName}">Photo name</h1>
+    <img th:src="'/photos/' + ${photo.imagePath}" >
+    <p th:text="'Date uploaded ' + ${photo.dateUploaded}">Date Uploaded</p>
 </div>
 
 
