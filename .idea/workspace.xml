@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8388907-2dd9-47ab-b477-b1a78e548d1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/photos/afraidofthecompiler.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/photos/debuggeron.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/photos/installjava.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/photos/nocomment.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/photos/noidea.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/photos/programmerswhilecoding.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
@@ -18,13 +11,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/detroitlabs/photolibrary/Controller/PhotoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/detroitlabs/photolibrary/Controller/PhotoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/detroitlabs/photolibrary/Model/Photo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/detroitlabs/photolibrary/Model/Photo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/detroitlabs/photolibrary/Repository/PhotoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/detroitlabs/photolibrary/Repository/PhotoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Controller/PhotoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Controller/PhotoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Model/Photo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Model/Photo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Repository/PhotoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Repository/PhotoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/photos/afraidofthecompiler.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/photos/afraidofthecompiler.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/photos/debuggeron.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/photos/debuggeron.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/photos/howprogrammersrun.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/photos/howprogrammersrun.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/photos/installjava.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/photos/installjava.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/photos/nocomment.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/photos/nocomment.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/photos/noidea.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/photos/noidea.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/photos/programmerswhilecoding.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/photos/programmerswhilecoding.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -72,12 +67,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/AppConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,45 +83,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Model/Photo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="380">
+              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
                 <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Controller/PhotoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="98">
+              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +116,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/index.css">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -147,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Repository/PhotoRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,14 +172,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/AppConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Model/Photo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Repository/PhotoRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Controller/PhotoController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/index.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Controller/PhotoController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="180" />
+    <option name="x" value="18" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="822" />
@@ -211,6 +192,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,25 +265,23 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551272758871" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551277428068" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/photos/photos" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/templates" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/vendor" />
+      <recent name="$PROJECT_DIR$/src/main/resources/photos" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/photos/photos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -358,56 +339,68 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551214030060</updated>
-      <workItem from="1551214033957" duration="5513000" />
+      <workItem from="1551214033957" duration="5963000" />
+      <workItem from="1551276509853" duration="868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5513000" />
+    <option name="totallyTimeSpent" value="6831000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="180" y="23" width="1440" height="822" extended-state="0" />
+    <frame x="18" y="23" width="1440" height="822" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.32876712" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.2890411" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3739726" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7315068" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" visible="true" weight="0.10014306" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2890411" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.10014306" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Data.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/photos/debuggeron.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -415,47 +408,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/photos/debuggeron.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/static/app.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/AppConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Repository/PhotoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Controller/PhotoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -464,34 +433,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Model/Photo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="380">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
             <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="164">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/photolibrary/Controller/PhotoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
