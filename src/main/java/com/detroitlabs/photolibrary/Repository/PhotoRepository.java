@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 @Component
@@ -23,9 +24,17 @@ public class PhotoRepository {
             ,new Photo("No Comment...","nocomment.jpg", LocalDate.of(2019,02,27)
                     , "confused")
             , new Photo("No Idea", "noidea.jpg", LocalDate.of(2019,2,25)
-                    , "confused"),
-            new Photo("Sorting arrays...", "arraysorter.jpg" , LocalDate.of(2019, 2,28)
+                    , "confused no idea")
+            , new Photo("Sorting arrays...", "arraysorter.jpg" , LocalDate.of(2019, 2,28)
                     ,"confused  nervous")
+            , new Photo("I LOVE CODING", "ilovecoding.jpeg", LocalDate.now()
+                    , "excited")
+            , new Photo("Obligatory Spongebob Meme", "spongebob.jpg", LocalDate.of(2019, 2,26)
+                    , "confused spongebob " )
+            , new Photo( "The art of fixing an error", "theartoferrors.jpg", LocalDate.of(2019, 2,1)
+                    , "errors fail confused ")
+            , new Photo("The Two States of Programming (Or, There Is No In-between)", "thestateofaprogrammer.jpg"
+                    , LocalDate.of(2018,2,12), "confused no idea ")
 
     );
 
@@ -35,5 +44,33 @@ public class PhotoRepository {
 
         return ALL_PHOTOS;
     }
+
+
+    public List<Photo> searchMemeByPhotoTag(String searchTerm){
+        List<Photo> searchedPhotosMatchingTag = new ArrayList<>();
+
+        for(Photo photo : ALL_PHOTOS){
+            if(photo.getPhotoTags().contains(searchTerm)){
+                searchedPhotosMatchingTag.add(photo);
+            }
+        }
+
+
+        return searchedPhotosMatchingTag;
+    }
+
+
+    public List<Photo> listMemesByNameAlphabetically(){
+
+        List<Photo> sortedPhotos = new ArrayList<>();
+        sortedPhotos = ALL_PHOTOS;
+
+
+
+
+        return sortedPhotos;
+    }
+
+
 
 }

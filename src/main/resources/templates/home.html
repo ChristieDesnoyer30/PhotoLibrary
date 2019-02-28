@@ -5,18 +5,32 @@
     <title>Home Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href ="index.css" rel="stylesheet"/>
-    <link href="css/bootstrap.min.css" rel="stylesheet" >
-    <script src ="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/litera/bootstrap.min.css"></script>
+
+
 
 </head>
 <body>
 
-<h1>Welcome to Christie's Meme Photo Library</h1>
+<div class="topnav">
+    <form action="search" method="get">
+    <a class="active" href="/">Home</a>
+    <a href="/memename">View Memes Alphabetically</a>
+    <a href="/memedate">View Memes By Date</a>
 
-<div th:each="photo : ${photos}" class="container">
-    <div>
+    <input type="text" name="searchterm" placeholder="Search memes by tags..">
+    </form>
+</div>
+
+
+
+
+<div>
+<h1 align="center" >Welcome to Christie's Meme Photo Library</h1>
+</div>
+<div class="container" id="parentContainer">
+    <div th:each="photo : ${photos}" id ="innerContainer" align="center">
     <h1 th:text = "${photo.photoName}">Photo name</h1>
-    <img th:src="'/photos/' + ${photo.imagePath}" >
+    <img th:src="'/photos/' + ${photo.imagePath}" width="200px" height="200px">
     <p th:text="'Date uploaded ' + ${photo.dateUploaded}">Date Uploaded</p>
     </div>
 </div>
@@ -25,12 +39,5 @@
 
 
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </body>
 </html>
