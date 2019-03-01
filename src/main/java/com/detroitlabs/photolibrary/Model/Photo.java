@@ -1,7 +1,6 @@
 package com.detroitlabs.photolibrary.Model;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 
 public class Photo {
 
@@ -21,6 +20,9 @@ public class Photo {
         this.dateUploaded = dateUploaded;
         this.photoTags = photoTags;
     }
+
+
+
 
     public String getImagePath() {
         return imagePath;
@@ -58,5 +60,16 @@ public class Photo {
 
     public void setPhotoTags(String photoTags) {
         this.photoTags = photoTags;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Photo{" +
+                "photoName='" + photoName + '\'' +
+                ", imagePath='" + imagePath + '\'' +
+                ", dateUploaded=" + dateUploaded +
+                ", photoTags='" + photoTags + '\'' +
+                '}';
     }
 }

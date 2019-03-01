@@ -3,10 +3,7 @@ import com.detroitlabs.photolibrary.Model.Photo;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 @Component
 public class PhotoRepository {
@@ -61,14 +58,25 @@ public class PhotoRepository {
 
 
     public List<Photo> listMemesByNameAlphabetically(){
-
         List<Photo> sortedPhotos = new ArrayList<>();
-        sortedPhotos = ALL_PHOTOS;
+        sortedPhotos.addAll(getAllPhotos());
 
-
+        Comparator.comparing(Photo::getPhotoName).thenComparing(Photo::getPhotoName);
+        Collections.sort(sortedPhotos, Comparator.comparing(Photo::getPhotoName));
 
 
         return sortedPhotos;
+    }
+
+    public List<Photo> listMemesByDateUploaded(){
+        List<Photo> sortedPhotosByDate = new ArrayList<>();
+        sortedPhotosByDate.addAll(getAllPhotos());
+
+        Comparator.comparing(Photo::getDateUploaded).thenComparing(Photo::getDateUploaded);
+        Collections.sort(sortedPhotosByDate, Comparator.comparing(Photo::getDateUploaded));
+
+
+        return sortedPhotosByDate;
     }
 
 

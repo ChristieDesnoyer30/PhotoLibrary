@@ -3,8 +3,8 @@ package com.detroitlabs.photolibrary.Controller;
 import com.detroitlabs.photolibrary.Model.Photo;
 import com.detroitlabs.photolibrary.Repository.PhotoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -35,7 +35,31 @@ public class PhotoController {
         System.out.println(searchTerm);
         System.out.println(searchedPhotosMatchingTag.size());
 
+        return mv;
+    }
+
+
+    @RequestMapping("memename")
+    public ModelAndView sortPhotosByName(){
+        ModelAndView mv = new ModelAndView("home");
+        List<Photo> sortedPhotosByName = photoRepository.listMemesByNameAlphabetically();
+        mv.addObject("photos", sortedPhotosByName);
+
 
         return mv;
     }
+
+    @RequestMapping("memedate")
+    public ModelAndView sortPhotosByDate(){
+        ModelAndView mv = new ModelAndView("home");
+        List<Photo> sortedPhotosByName = photoRepository.listMemesByDateUploaded();
+        mv.addObject("photos", sortedPhotosByName);
+
+        System.out.println(sortedPhotosByName.size());
+        System.out.println( sortedPhotosByName);
+        return mv;
+    }
+
+
+
 }
