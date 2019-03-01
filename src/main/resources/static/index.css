@@ -5,10 +5,18 @@ h1{
     font-family:"Amatic SC";
 }
 
+p{
+    font-family: "Abril Fatface";
+}
+
+body{
+    background-image: url("symphony.png");
+}
 
 #parentContainer{
     display: flex;
     align-items: flex-start;
+    justify-content: space-around;
     flex-wrap: wrap;
     height: 100%;
 }

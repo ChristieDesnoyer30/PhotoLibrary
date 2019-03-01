@@ -19,47 +19,38 @@ public class PhotoController {
     PhotoRepository photoRepository;
 
     @RequestMapping("/")
-    public ModelAndView indexPage(){
+    public ModelAndView indexPage() {
         ModelAndView mv = new ModelAndView("home");
         List<Photo> allPhotos = photoRepository.getAllPhotos();
         mv.addObject("photos", allPhotos);
-
         return mv;
     }
 
     @RequestMapping("search")
-    public ModelAndView searchPage(@RequestParam("searchterm") String searchTerm){
+    public ModelAndView searchPage(@RequestParam("searchterm") String searchTerm) {
         ModelAndView mv = new ModelAndView("home");
         List<Photo> searchedPhotosMatchingTag = photoRepository.searchMemeByPhotoTag(searchTerm);
         mv.addObject("photos", searchedPhotosMatchingTag);
-        System.out.println(searchTerm);
-        System.out.println(searchedPhotosMatchingTag.size());
-
         return mv;
     }
 
 
     @RequestMapping("memename")
-    public ModelAndView sortPhotosByName(){
+    public ModelAndView sortPhotosByName() {
         ModelAndView mv = new ModelAndView("home");
         List<Photo> sortedPhotosByName = photoRepository.listMemesByNameAlphabetically();
         mv.addObject("photos", sortedPhotosByName);
-
-
         return mv;
     }
 
     @RequestMapping("memedate")
-    public ModelAndView sortPhotosByDate(){
+    public ModelAndView sortPhotosByDate() {
         ModelAndView mv = new ModelAndView("home");
         List<Photo> sortedPhotosByName = photoRepository.listMemesByDateUploaded();
         mv.addObject("photos", sortedPhotosByName);
 
-        System.out.println(sortedPhotosByName.size());
-        System.out.println( sortedPhotosByName);
         return mv;
     }
-
 
 
 }

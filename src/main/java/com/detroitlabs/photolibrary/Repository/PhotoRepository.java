@@ -51,8 +51,6 @@ public class PhotoRepository {
                 searchedPhotosMatchingTag.add(photo);
             }
         }
-
-
         return searchedPhotosMatchingTag;
     }
 
@@ -60,22 +58,16 @@ public class PhotoRepository {
     public List<Photo> listMemesByNameAlphabetically(){
         List<Photo> sortedPhotos = new ArrayList<>();
         sortedPhotos.addAll(getAllPhotos());
-
         Comparator.comparing(Photo::getPhotoName).thenComparing(Photo::getPhotoName);
         Collections.sort(sortedPhotos, Comparator.comparing(Photo::getPhotoName));
-
-
         return sortedPhotos;
     }
 
     public List<Photo> listMemesByDateUploaded(){
         List<Photo> sortedPhotosByDate = new ArrayList<>();
         sortedPhotosByDate.addAll(getAllPhotos());
-
         Comparator.comparing(Photo::getDateUploaded).thenComparing(Photo::getDateUploaded);
         Collections.sort(sortedPhotosByDate, Comparator.comparing(Photo::getDateUploaded));
-
-
         return sortedPhotosByDate;
     }
 
